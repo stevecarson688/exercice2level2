@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: teal;
+  top: 50%;
+}
+
+
+.h1 {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  position: relative;
+  width: 10px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+}
+
+.l1{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  box-shadow: 1px 2px 7px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.l1:hover {
+  transform: scale(1.15);
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.15);
+}
+
+input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid;
+  outline-color: white;
+  border-radius: 5px;
+  display: flex;
+}
+
+.registre {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background-color: none;
+  border-radius: 10px;
+  display: block;
+  margin-top: 0em;
+}
+
+.cont {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  border: none;
+  border-color: brown;
+}
